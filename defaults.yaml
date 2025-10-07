@@ -1,0 +1,17 @@
+{
+  "build": {
+    "install-base": "install",
+    "merge-install": true,
+    "symlink-install": true,
+    "cmake-args": [
+      "-DCMAKE_POLICY_VERSION_MINIMUM=3.5",
+      "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+      "-DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON",
+      "-DCMAKE_EXPORT_COMPILE_COMMANDS=1",
+      "-DCMAKE_POSITION_INDEPENDENT_CODE=ON",
+      "--no-warn-unused-cli",
+      "-DGENERATE_CODE=OFF",
+      "-DCMAKE_CXX_FLAGS=-Wno-psabi",
+    ]
+  }
+}

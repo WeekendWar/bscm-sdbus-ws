@@ -1,0 +1,15 @@
+paths:
+  src/sdbus-cpp:
+    name: sdbus-c++
+    type: cmake
+#    cmake-args:
+#      - "-DSDBUSCPP_BUILD_EXAMPLES=ON"
+    dependencies: []
+  src/bscm-sdbus-cpp:
+    name: bscm-sdbus-cpp
+    type: cmake
+    dependencies: ["sdbus-c++"]
+  src/claude-sdbus:
+    name: claude-sdbus
+    type: cmake
+    dependencies: ["sdbus-c++"]

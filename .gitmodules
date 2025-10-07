@@ -1,0 +1,9 @@
+[submodule "src/sdbus-cpp"]
+	path = src/sdbus-cpp
+	url = git@github.com:Kistler-Group/sdbus-cpp.git
+[submodule "src/bscm-sdbus-cpp"]
+	path = src/bscm-sdbus-cpp
+	url = git@github.com:WeekendWar/bscm-sdbus-cpp.git
+[submodule "src/claude-sdbus"]
+	path = src/claude-sdbus
+	url = git@github.com:WeekendWar/claude-sdbus.git
