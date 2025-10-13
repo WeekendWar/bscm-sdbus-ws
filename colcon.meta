@@ -8,6 +8,8 @@ paths:
   src/bscm-sdbus-cpp:
     name: bscm-sdbus-cpp
     type: cmake
+#    cmake-args:
+#      - "-DCMAKE_BUILD_TYPE=Debug"
     dependencies: ["sdbus-c++"]
   src/claude-sdbus:
     name: claude-sdbus
